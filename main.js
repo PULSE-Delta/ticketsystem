@@ -8,7 +8,7 @@ app.listen(process.env.PORT);
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const fs = require("fs");
-const config = prefix: "$",
+const config = "prefix": "$",
 const TOKEN = process.env.TOKEN;
 const client = bot;
 const prefix = config.prefix;
