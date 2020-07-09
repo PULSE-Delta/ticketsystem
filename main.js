@@ -8,10 +8,10 @@ app.listen(process.env.PORT);
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const fs = require("fs");
-const config = "prefix": "$",
+const config = require("./storages/config.json")
 const TOKEN = process.env.TOKEN;
 const client = bot;
-const prefix = config.prefix;
+const prefix = "t!";
 
 const pings = ["@everyone", "@here"];
 
