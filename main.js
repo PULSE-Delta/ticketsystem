@@ -11,7 +11,7 @@ const fs = require("fs");
 const config = require("./storages/config.json")
 const TOKEN = process.env.TOKEN;
 const client = bot;
-const prefix = "t!";
+const prefix = config.prefix;
 
 const pings = ["@everyone", "@here"];
 
