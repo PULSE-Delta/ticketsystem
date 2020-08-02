@@ -1,8 +1,8 @@
 const discord = require("discord.js")
-exports.run = async(bot , message , args) => {
-let emb = new discord.RichEmbed();
+exports.run = async (bot , message , args) => {
+let emb = new discord.RichEmbed()
 .setTitle("Help")
-.setName("Prefix = **t!**")
+.setThumbnail("https://cdn.glitch.com/0be54144-726d-4e41-bcc5-9ea5c83277c7%2F20060409055611.gif?v=1594547914004")
 .setDescription("Du hast den Hilfe Command aufgerufen")
 .setColor("BLUE")
 .addField("freunde" , "Zeigt dir andere Bots")
