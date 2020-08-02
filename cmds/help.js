@@ -1,7 +1,8 @@
 const discord = require("discord.js")
 exports.run = async(bot , message , args) => {
-emb = new discord.RichEmbed();
+let emb = new discord.RichEmbed();
 .setTitle("Help")
+.setName("Prefix = **t!**")
 .setDescription("Du hast den Hilfe Command aufgerufen")
 .setColor("BLUE")
 .addField("freunde" , "Zeigt dir andere Bots")
