@@ -75,7 +75,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: 'Prefix = t!',
+            name: 'Eigentlich nichts',
             type: "STREAMING",
             url: "https://twitch.tv/Pascaldark"
         }
